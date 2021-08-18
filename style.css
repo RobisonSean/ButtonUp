@@ -1,0 +1,49 @@
+*{
+    margin: 30px;
+    padding: 0px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:fantasy;
+}
+.btn{
+    display:block;
+    font-weight:bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:solid 2px rgb(20, 175, 136);
+    font-size: 13px;
+    line-height: 1;
+    padding: 6px 40px;
+    border-radius: 70px;
+    background: rgb(217, 223, 220);
+    color: rgb(14, 109, 85);
+    cursor: pointer;
+
+}
+.btn-outline{
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border:solid 2px rgb(33, 170, 140);
+    font-size: 20px;
+    line-height: 1;
+    padding: 3px 10px;
+    border-radius: 50%;
+    background: rgb(33, 170, 140);
+    color: white;
+    cursor: pointer;
+}
+.btn-shadow{
+    display:block;
+    font-family:sans-serif;
+    border:solid 2px rgb(0, 0, 0);
+    box-shadow: 2px 4px 2px black;
+    font-size: 14px;
+    line-height: 1;
+    padding: 8px 40px;
+    background:rgb(56, 56, 196);
+    color:white;
+    cursor: pointer;
+}
